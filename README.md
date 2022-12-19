@@ -8,13 +8,13 @@ We have employed clustering methods as well as time-series correlation analyses 
 
 ## 📖 Documentation
 
+'raw_data/` holds the raw data scraped using the configurations as they are provided in the configs.json.
+
 `configs.json` is the configurations file for `data_processing.ipynb`. The analysis can be adjusted by changing this config.
 
-`raw_data/` holds the raw data scraped using the configurations as they are provided in the configs.json.
+`data_processing.ipynb` reads and processes the raw data files in `raw_data` to output the final dataset.
 
 `review_scraper.py` is the script doing the scraping.
-
-`data_processing.ipynb` reads and processes the raw data files in `raw_data` to output the final dataset.
 
 `timeseries_analysis.ipynb` contains the time series analysis along with the plots used in the report.
 
@@ -22,11 +22,12 @@ We have employed clustering methods as well as time-series correlation analyses 
 
 `visualization.ipynb` is the notebook to generate the chart included in the report.
 
-`review_data.csv` is the final data set.
-
 `irr_analysis.ipynb` is the notebook that calculates the inter-rater reliability agreement
 
 `sampling_annotation.ipynb` strafity the samples and format it to fit [doccano](https://github.com/doccano/doccano)
 
+`review_data.csv` is the final data set.
+
 ## 💻 Setup
+
 `pip install -r requirements.txt`
