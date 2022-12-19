@@ -1,0 +1,17 @@
+{
+    "sites": {
+        "Amazon": "6036",
+        "Google": "9079",
+        "Apple": "1138",
+        "Tesla": "43129",
+        "Meta": "40772",
+        "Microsoft": "1651",
+        "Nvidia": "7633"
+    },
+    "categories": {
+        "Engineering": "1007",
+        "Information & Technology": "1011",
+        "Operations": "1016",
+        "Research & Science": "1019"
+    }
+}
