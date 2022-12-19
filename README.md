@@ -6,24 +6,24 @@ This paper presents a dataset containing employee reviews and company stock pric
 
 We have employed clustering methods as well as time-series correlation analyses to assess potential trends. Additionally we do some statistical analyses of different groups of reviewers to showcase the usability of the dataset.
 
-# File explanation
+# 📖 Documentation
 
-configs.json is the configurations file for data_processing.ipynb. The analysis can be adjusted by changing this config.
+`configs.json` is the configurations file for `data_processing.ipynb`. The analysis can be adjusted by changing this config.
 
-raw_data/ holds the raw data scraped using the configurations as they are provided in the configs.json.
+`raw_data/` holds the raw data scraped using the configurations as they are provided in the configs.json.
 
-review_scraper.py is the script doing the scraping.
+`review_scraper.py` is the script doing the scraping.
 
-data_processing.ipynb reads and processes the raw data files in the `raw_data`-directory to output the final data set.
+`data_processing.ipynb` reads and processes the raw data files in the `raw_data`-directory to output the final data set.
 
-time_series_analysis.ipynb contains the time series analysis along with the plots used in the report.
+`time_series_analysis.ipynb` contains the time series analysis along with the plots used in the report.
 
-topic_over_time.ipynb is the topic modelling analysis.
+`topic_over_time.ipynb` is the topic modelling analysis.
 
-visualization.ipynb is the notebook to generate the chart included in the report.
+`visualization.ipynb` is the notebook to generate the chart included in the report.
 
-review_data.csv is the final data set.
+`review_data.csv` is the final data set.
 
-# Setup
+# 💻 Setup
 Install requirements by running: \
 `pip install -r requirements.txt`
