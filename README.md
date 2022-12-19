@@ -26,7 +26,7 @@ We have employed clustering methods as well as time-series correlation analyses 
 
 `irr_analysis.ipynb` is the notebook that calculates the inter-rater reliability agreement
 
-`sampling_annotation.ipynb` strafity the samples and format it to fit [doccano] (https://github.com/doccano/doccano)
+`sampling_annotation.ipynb` strafity the samples and format it to fit [doccano](https://github.com/doccano/doccano)
 
 ## 💻 Setup
 `pip install -r requirements.txt`
