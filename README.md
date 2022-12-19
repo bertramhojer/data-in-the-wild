@@ -1,4 +1,4 @@
-## Investigating the Relationship between Employee Reviews and Financial Performance: A Study Using Glassdoor Reviews and Stock Prices
+## ⚡ Investigating the Relationship between Employee Reviews and Financial Performance: A Study Using Glassdoor Reviews and Stock Prices ⚡
 ### Data in the Wild: Wrangling and Visualising Data (Autumn 2022)
 
 **Introduction**
