@@ -8,7 +8,7 @@ We have employed clustering methods as well as time-series correlation analyses 
 
 🚀 **Data Sources**
 
-- Building a Selenium-based scraper to scrape company information from Glassdoor. This won’t be a crawler as we only want to investigate major companies. We need to use Selenium as Glassdoor uses a lot of Javascript.0
+- Building a Selenium-based scraper to scrape company information from Glassdoor. This won’t be a crawler as we only want to investigate major companies. We need to use Selenium as Glassdoor uses a lot of Javascript.
     - Company, Title, Date, Review-text, Review-rating, Salary, Demographics
 - Stock-prices related to major companies scraped from [Glassdoor](www.glassdoor.com). We could e.g. use the [API of Yahoo Finance](https://rapidapi.com/apidojo/api/yh-finance) ⚡️
 -  Potentially combining key-events retrieved from major news-outlets at events from review data.
