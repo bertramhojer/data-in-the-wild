@@ -1,4 +1,4 @@
-## ⚡ Investigating the Relationship between Employee Reviews and Financial Performance: A Study Using Glassdoor Reviews and Stock Prices ⚡
+## ⚡ Investigating the Relationship between Employee Reviews and Financial Performance: A Study Using [Glassdoor](www.glassdoor.com) Reviews and Stock Prices ⚡
 ### ✨ Data in the Wild: Wrangling and Visualising Data (Autumn 2022) ✨
 
 **Abstract**
@@ -6,7 +6,7 @@ This paper presents a dataset containing employee reviews and company stock pric
 
 We have employed clustering methods as well as time-series correlation analyses to assess potential trends. Additionally we do some statistical analyses of different groups of reviewers to showcase the usability of the dataset.
 
-# 📖 Documentation
+## 📖 Documentation
 
 `configs.json` is the configurations file for `data_processing.ipynb`. The analysis can be adjusted by changing this config.
 
@@ -14,9 +14,9 @@ We have employed clustering methods as well as time-series correlation analyses 
 
 `review_scraper.py` is the script doing the scraping.
 
-`data_processing.ipynb` reads and processes the raw data files in the `raw_data`-directory to output the final data set.
+`data_processing.ipynb` reads and processes the raw data files in `raw_data` to output the final dataset.
 
-`time_series_analysis.ipynb` contains the time series analysis along with the plots used in the report.
+`timeseries_analysis.ipynb` contains the time series analysis along with the plots used in the report.
 
 `topic_over_time.ipynb` is the topic modelling analysis.
 
@@ -24,6 +24,9 @@ We have employed clustering methods as well as time-series correlation analyses 
 
 `review_data.csv` is the final data set.
 
-# 💻 Setup
-Install requirements by running: \
+`irr_analysis.ipynb` is the notebook that calculates the inter-rater reliability agreement
+
+`sampling_annotation.ipynb` strafity the samples and format it to fit [doccano] (https://github.com/doccano/doccano)
+
+## 💻 Setup
 `pip install -r requirements.txt`
