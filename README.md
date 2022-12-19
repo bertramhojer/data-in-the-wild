@@ -8,7 +8,7 @@ We have employed clustering methods as well as time-series correlation analyses 
 
 ## 📖 Documentation
 
-'raw_data/` holds the raw data scraped using the configurations as they are provided in the configs.json.
+`raw_data/` holds the raw data scraped using the configurations as they are provided in the ´configs.json´.
 
 `configs.json` is the configurations file for `data_processing.ipynb`. The analysis can be adjusted by changing this config.
 
